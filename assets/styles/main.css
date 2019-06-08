@@ -1,0 +1,509 @@
+.topBaner {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: #04185F
+}
+.wrap-grey{
+    background: #efefef38
+}
+.container{
+    background: white;
+}
+
+img {
+    width: 100%;
+}
+
+.brand-img {
+    min-width: 100px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#mainCarousel0 .carousel-caption {
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: left;
+    color: black;
+    line-height: 1rem;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+
+#mainCarousel0 .carousel-caption p {
+    font-size: 1.5rem;
+}
+
+#mainCarousel0 .carousel-caption .disc {
+    font-size: 2.5rem;
+    line-height: 2rem
+}
+
+#mainCarousel0 .carousel-caption h3 {
+    font-size: 4rem;
+    line-height: 5rem
+}
+
+#mainCarousel0 .carousel-item {
+    min-width: 400px !important;
+}
+
+#main-nav .form {
+    margin-top: 1.5rem;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.fas.fa-search {
+    z-index: 999;
+}
+
+.simplebox {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.orbord {
+    border: 1px solid #F3703C;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.orbgcol {
+    background: #F3703C;
+}
+
+.orcol {
+    color: #F3703C;
+}
+
+.btn-mayas {
+    background: #F3703C;
+    border: none;
+    color: white;
+    box-shadow: none !important;
+    min-width: 105px;
+    width: 40%;
+}
+
+.btn-mayas1 {
+    background: #F3703C;
+    border: none;
+    color: white;
+    box-shadow: none !important;
+    min-width: 50px;
+    text-align: center;
+}
+
+.btn-l {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.round {
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    background: white;
+    color: #F3703C;
+    font-size: 12px;
+    padding: 2px;
+    position: relative;
+    right: 2px;
+    bottom: 5px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 999;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #F3703C;
+}
+
+/* Style the tab */
+
+.tabcontent {
+    display: none;
+}
+
+.drop1 {
+    position: absolute;
+    z-index: 9999;
+    left: 50px
+}
+
+.drop1, .drop2, .drop3 {
+    width: 250px;
+    background: white;
+    height: 60vh;
+    min-height: 370px;
+}
+
+.drop1 a, .drop2 a, .drop3 a {
+    color: black;
+    text-decoration: none;
+    line-height: 1.94rem !important;
+    padding-left: 10px;
+}
+
+.drop2 {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+}
+
+.drop2 {
+    display: none;
+}
+
+.drop11:hover {
+    background: #F3703C;
+}
+
+.drop11:hover .drop2 {
+    display: block
+}
+
+.drop3, .drop2 {
+    display: none;
+    box-shadow: 1px 5px 10px 1px silver
+}
+
+.drop22:hover .drop3 {
+    display: block;
+}
+
+.drop3 {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+}
+
+#mainSLider {
+    overflow: hidden;
+    height: 60vh;
+    min-height: 350px;
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+    .catogries {
+        display: none !important;
+    }
+}
+
+#demo .col-md-2 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+#demo .col-md-2 img {
+    width: 100%;
+    height: auto;
+}
+
+#demo .carousel-indicators {
+    bottom: 0;
+}
+
+#demo .carousel-control-prev-icon .fas, #demo .carousel-control-next-icon .fas {
+    color: #F3703C !important
+}
+
+#demo {
+    box-shadow: 1px 1px 10px 1px silver;
+}
+
+.card img {
+    width: 100%
+}
+
+.cardsforPRo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+.bot-shadow{
+    -webkit-box-shadow: 0 8px 6px -6px grey;
+    -moz-box-shadow: 0 8px 6px -6px grey;
+         box-shadow: 0 8px 6px -6px grey;
+}
+.discBtn{
+    font-size: 1.2rem;
+    width: 100%;
+    display: inline-block;
+    font-weight: bold
+}
+.price{
+    font-size: 1.4rem;
+    color: #F3703C;
+    font-weight: bold
+}
+.cardsforPRo .card{
+    border-collapse: collapse;
+    border-radius: 0px !important;
+    width: 25% !important; 
+}
+.deal1 , .deal2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 80px;
+
+    text-shadow: 1px 1px 1px black;
+    background-image: url("../images/banners/1.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.deal2{
+    background-image: url("../images/banners/2.png"); /* The image used */
+}
+.btn-mayas2{
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+.btn-mayas2:hover{
+    background: white;
+}
+.weDeal{
+    background-image: url("../images/weather/1.png"); /* The image used */
+    height: 250px;
+   
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.weDeal h4{
+    width: 50%;
+    padding-top: 20px;
+    color: #D1B691;
+    font-size:2rem !important;
+    font-weight: bold;
+}
+.weDeal.a{
+    background-image: url("../images/weather/2.png"); /* The image used */
+}
+.weDeal.a h4{
+    color: #E697F2 !important
+}
+.weDeal.b h4{
+    color: #E6A19D !important
+}
+.weDeal.c h4{
+    color: #F7D211 !important
+
+}
+.weDeal.b{
+    background-image: url("../images/weather/3.png"); /* The image used */
+}
+.weDeal.c{
+    background-image: url("../images/weather/4.png"); /* The image used */
+}
+.eti{
+    background-image: url("../images/ecom/1.png"); /* The image used */
+    height: 200px;
+    margin: 5px;
+    margin-top: 40px;
+
+    text-align: center;
+    background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.col-md-3.eti{
+    width: 30% !important;
+}
+.eti.a{
+    background-image: url("../images/ecom/2.png"); /* The image used */
+
+}
+.eti h4{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    background: #F3703C;
+    margin: 0px;
+    color: white;
+    padding: 10px;
+}
+.myExp div{
+    float: left;
+}
+.myExp div .price{
+    font-size: 1.2rem;
+}
+.myExp div .wasPrice{
+    font-size: 0.7rem;
+}
+.myExp div .card-body{
+    padding: 8px;
+}
+.myExp div.col-md-4{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.mainMyExp{
+    margin-top: 30px;
+}
+.expTab{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid silver;
+
+}
+.expTab.active{
+    background: #F3703C !important;
+    color: white !important;
+  
+}
+.expTab::after{
+    content:'';
+    position: absolute;
+    border:10px solid transparent;
+    border-right:10px solid #F3703C;
+    top:49px;
+    left:-20px;
+   
+}
+.mainMyExp .col-md-9,.mainMyExp .col-md-3{
+    padding: 0px;
+}
+.tabbing{
+    margin-top: 50px;
+
+}
+/* Style the tab */
+
+/* Style the tab */
+.tab {
+    float: left;
+    width: 27%;
+    text-align: center;
+
+  }
+  .tabbing .tabcontent .card{
+      width: 25%;
+      border-collapse: collapse;
+      border-radius: 0px !important;
+  }
+  .tabbing .tabcontent .card .price{
+      font-size: 15px;
+      font-weight: bold;
+  }
+  .tabbing .tabcontent .card .wasPrice{
+    font-size: 12px;
+      
+  }
+  .tabbing .tabcontent .card .discBtn{
+      font-size: 15px;
+  }
+  .tabbing .tabcontent .card .card-body{
+      padding: 5px;
+  }
+  .tabbing .tabcontent .card .card-body p{
+      margin-bottom: 0px;
+  }
+
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 15px 10px;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 17px;
+    font-weight: bold
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+   background: #ffaf8f
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color:#F3703C;
+    color: white;
+  }
+  .tab h4{
+      padding: 17px 5px;
+      color: #F3703C;
+      margin: 0px !important; 
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 73%;
+    border-left: none;
+  }
+  .card{
+      border-left: none;
+      border-right: none;
+  }
+  .tabbing.bot-shadow .row .tabcontent .upperRow{
+      border: 1px solid rgba(0,0,0,.125);
+      border-bottom: none;
+      border-top: none !important;
+  }
+  .indicSpec{
+      width: 30px !important;
+      height: 30px !important;
+      opacity: 1;
+  }
+  #secondCaro .carousel-caption{
+      text-align: left;
+      width: 35%;
+  }
+  #secondCaro{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  #secondCaro h1{
+      font-weight:bold
+  }
+  #offersGen .secondCards .card{
+    border: none;
+    width: 50%;
+    float: left; 
+    text-align: center;
+    padding: 10px;
+  }
+  #offersGen{
+    margin-bottom: 50px;
+  }
+  
+
