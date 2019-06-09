@@ -557,3 +557,20 @@ body {
 .ablogs{
   padding: 20px;
 }
+footer{
+   background-image: url("../images/ecom/path 541.png"); /* The image used */
+  height: 700px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding-top: 300px;
+}
+.social-icon i{
+  font-size: 1.4rem;
+}
+footer .container{
+  
+background:  none;
+color: white
+
+}
