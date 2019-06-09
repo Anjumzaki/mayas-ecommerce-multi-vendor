@@ -545,3 +545,15 @@ body {
 .extra .last{
   border: none !important;
 }
+.about-logos{
+  margin-top: 50px;
+}
+.ablogs img{
+  padding: 15px;
+  border: 1px solid #FD8369;
+  border-radius: 100%;
+  width: 100%;
+}
+.ablogs{
+  padding: 20px;
+}
