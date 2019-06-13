@@ -4,7 +4,11 @@
     text-align: center;
     padding: 5px;
     color: white;
-    background-color: #04185F
+    background-color: #04185F;
+    margin-bottom: 10px
+}
+body{
+  height: 100%;
 }
 .wrap-grey{
     background: #efefef38
@@ -63,7 +67,7 @@ body {
 }
 
 .fas.fa-search {
-    z-index: 999;
+    z-index: 1;
 }
 
 .simplebox {
@@ -125,7 +129,7 @@ body {
 
 .has-search .form-control-feedback {
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     display: block;
     width: 2.375rem;
     height: 2.375rem;
@@ -143,18 +147,122 @@ body {
 
 .drop1 {
     position: absolute;
-    z-index: 9999;
-    left: 50px
+    z-index:11;
+    left: 100px;
+     display: table;
+}
+.categParent{
+    display: table;
+    height: 56vh
+}
+.categChild{
+  display: table-row;
+}
+.categChild::after{
+   content:"";
 }
 
-.drop1, .drop2, .drop3 {
-    width: 250px;
+.categImages {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.inCategImages {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width:50%;
+  padding: 0 4px;
+   position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.inCategImages img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+
+}
+
+
+.tickets{
+  width: 45%;
+  text-align: center;
+  padding-top: 7px;
+  padding-left: 5px;
+}
+.tickets img{
+  vertical-align: bottom;
+
+}
+.tickets div{
+  width: 100%;
+  background: #F3703C;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  color: white;
+  position: relative;
+  top: -26px;
+}
+.ecare{
+  width: 50%;
+  float: left;
+  padding: 2px;
+  padding-top:6%;
+  text-align: center;
+}
+.ecare div{
+  width: 100%;
+  background: #F3703C;
+  color: white;
+   padding-top: 15px;
+  padding-bottom: 15px; 
+}
+.drop11{
+   display: table-row;
+   width: 250px !important;
+}
+.drop11 a{
+  width: 250px !important;
+  display: inline-block;
+  height: 100% !important;
+  vertical-align: middle;
+  padding-top: 5px;
+  border-right: 10px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+.drop11::after{
+  content:"";
+
+}
+.drop1, .drop2{
     background: white;
     height: 60vh;
     min-height: 370px;
 }
-
-.drop1 a, .drop2 a, .drop3 a {
+.drop2{
+  width: 115vh
+}
+.drop2{
+  color: black;
+}
+.drop2 h5{
+  font-size: 12px;
+}
+.drop2 h6{
+  font-size: 15px;
+  color: #F3703C;
+  font-weight: bold;
+}
+.drop2{
+  padding: 20px;
+}
+.drop1 a, .drop2 a {
     color: black;
     text-decoration: none;
     line-height: 1.94rem !important;
@@ -167,32 +275,21 @@ body {
     top: 0px;
 }
 
-.drop2 {
-    display: none;
-}
+.drop11:hover a{
+     border-right: 10px solid #F3703C;
 
-.drop11:hover {
-    background: #F3703C;
-}
 
-.drop11:hover .drop2 {
-    display: block
 }
 
 .drop3, .drop2 {
     display: none;
     box-shadow: 1px 5px 10px 1px silver
 }
-
-.drop22:hover .drop3 {
-    display: block;
+.drop11:hover .drop2 {
+    display: block
 }
 
-.drop3 {
-    position: absolute;
-    left: 250px;
-    top: 0px;
-}
+
 
 #mainSLider {
     overflow: hidden;
@@ -200,11 +297,6 @@ body {
     min-height: 350px;
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
-    .catogries {
-        display: none !important;
-    }
-}
 
 #demo .col-md-2 {
     display: inline-block;
@@ -572,5 +664,48 @@ footer .container{
   
 background:  none;
 color: white
+}
+.nestedDrop div.categChild div.dropp11 a{
+  width: 100% !important;
+  border-right: none;
+}
 
+.logBack{
+  position: absolute;
+  background: url(../images/ecom/logBack.png);
+  width: 200px;
+  height: 280px;
+  top: 50px;
+  z-index: 14;
+  padding-top: 85px;
+  color: black;
+  display: none;
+}
+.logBack h5{
+  font-size: 14px;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 5px;
+  margin: 1px;
+  display: inline-block;;
+  width: 80%;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 13;
+  opacity: 0.7;
+  position: fixed;
+  top: 0px;
+  display: none;
+
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+    .catogries {
+        display: none !important;
+    }
 }

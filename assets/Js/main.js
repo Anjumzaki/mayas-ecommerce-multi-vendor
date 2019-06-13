@@ -11,7 +11,10 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-// $(document).ready(function () {
-//   $('#London').style.dis;
-// });
+$(document).ready(function () {
+ $('#accBtn').click(function() {
+     $('.overlay').css("display", "block");
+     $('.logBack').css("display", "block");
+});
+});
   // Get the element with id="defaultOpen" and click on it
