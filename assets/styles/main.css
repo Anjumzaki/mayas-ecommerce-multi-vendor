@@ -291,11 +291,6 @@ body {
 
 
 
-#mainSLider {
-    overflow: hidden;
-    height: 60vh;
-    min-height: 350px;
-}
 
 
 #demo .col-md-2 {
@@ -680,6 +675,7 @@ color: white
   padding-top: 85px;
   color: black;
   display: none;
+  transition: 0.5s
 }
 .logBack h5{
   font-size: 14px;
@@ -692,6 +688,7 @@ color: white
 }
 a{
   text-decoration: none;
+  color: black
 }
 .overlay{
   width: 100%;
@@ -702,10 +699,199 @@ a{
   position: fixed;
   top: 0px;
   display: none;
+  transition: 0.5s
 
 }
-@media (min-width: 768px) and (max-width: 1025px) {
+#signIn{
+  cursor: pointer;
+}
+.logInBack{
+  background: url(../images/ecom/logBack1.png);
+  width: 400px;
+  height: 600px;
+  background-repeat: no-repeat;
+   z-index: 16;
+  position: fixed;
+  margin: auto;
+  align-self: center;
+  left:33%;
+  top: 30px;
+  padding: 160px 50px 0px 50px;
+  background-size: cover;
+  display: none;
+  }
+  .wel h6{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+   .wel p{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .forgot{
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .orDiv{
+    color:  #F3703C;
+    font-weight: bold;
+    text-align: center;
+  }
+  .line{
+    width: 50px;
+    height: 8px;
+    display: inline-block;
+    border-top: 1px solid  #F3703C;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+ 
+  .login-btn{
+    background-color: #F3703C;
+    color: white; 
+font-weight: bold
+  }
+  .signUpBtn{
+    margin: auto;
+    background-color: #F3703C;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+/*mobile nav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  background-color: white;
+    overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 110px;
+}
+.sidenav a:nth-child(odd) {
+  background: #F2F2F2;
+}
+
+.sidenav a {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+   color: #F3703C;
+  display: block;
+  transition: 0.3s;
+  text-align: right;}
+
+.sidenav a:hover {
+  opacity: 0.5;
+}
+.closebtn {
+ 
+  font-size: 30px; 
+}
+
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  margin-top:25px;
+  right: 0px;
+  padding-right: 30px;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 1px solid #F3703C;
+  background-color: white !important;
+}
+  @media (min-width: 1081px) {
+   #mainSLider {
+    overflow: hidden;
+    height: 60vh;
+    min-height: 350px;
+}
+#mobile-nav{
+  display: none;
+}
+}
+
+@media (max-width: 1080px) {
     .catogries {
         display: none !important;
     }
+   .sidenav{
+  z-index: 100
+}#main-nav{
+  display: none;
+}
+.bread{
+  font-size:30px;
+  cursor:pointer;
+  color: #F3703C
+}
+.innerNav{
+  margin: 0px !important;
+
+}
+.innerNav div{
+  display: table;
+  margin: auto 0;
+}
+#mobile-nav{
+  border: 1px solid #F3703C;
+}
+.topBaner{
+  margin-bottom: 0px !important;
+}
+
+ .brandLogo img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+   .innerNav>div.col-8{
+    border-right: 1px solid #F3703C
+   } 
+   .divider{
+    height: 60px;
+    z-index: 1;
+    width: 0%;
+    border-left:  1px solid #F3703C
+   }
+
+ .divider::after{
+  content: ''
+
+ }
+ .searchBtn{
+  position: absolute;
+  top: 0;
+  margin-top:25px;
+  right: 85px;
+  padding-right: 30px !important;
+  font-size: 30px !important;
+  border: 1px solid #F3703C;
+  border-collapse: collapse;
+  border-right: none;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+ }
+ .searchBtn i{
+  color: #F3703C;
+
+ }
+
+}
+
+@media (max-width: 608px) {
+   .brandLogo img{
+    width: 130%;
+   }
 }

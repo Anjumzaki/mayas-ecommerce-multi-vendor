@@ -29,7 +29,63 @@
 
 <body>
 <div class="overlay"></div>
+
+
+  <div class="logInBack">
+    <div class="wel">
+    <h6>Welcome</h6>
+    <p>Sign in to Continue</p>
+       <div class="form-group  input-group ">
+          <input type="text" class=" simplebox orbord form-control orcol" placeholder="Email">
+        </div>
+              <div class="form-group  input-group ">
+          <input type="Password" class=" simplebox orbord form-control orcol" placeholder="Password">
+        </div>
+           <div class="form-group  input-group ">
+          <input type="submit" class=" login-btn simplebox orbord form-control orcol" value="Sign In" >
+        </div>
+
+        <div class="forgot"> <a href="">Forgot Password?</a> </div>
+          <div class="form-group  input-group ">
+          <button class=" btn signUpBtn">  <a href=""></a> Sign Up</button>
+        </div>
+        <div class="orDiv"> <span class="line"></span> <span class="ortext">OR</span> <span class="line"></span> </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4"> <a href=""> <img src="assets/images/ecom/facebook.png"></a> </div>
+            <div class="col-4"> <a href=""> <img src="assets/images/ecom/google.png"></a> </div>
+            <div class="col-2"></div>
+
+            </div>
+        </div>
+        
+
+
+    </div>
+  </div>
+
+
   <div class="topBaner">Ramadan Offers!</div>
+  <div id="mobile-nav">
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+  <a class="searchBtn"><i class="fas fa-search"></i></as>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<div class="innerNav row  justify-content-between">
+  <div class="col-8">
+  <div class="brandLogo col-md-5 col-8"> <img src="assets/images/mayaslogo.svg"></div>
+  </div>
+<div class="bread col-1"><i class="fas fa-search"></i></div>
+<div class=" divider "></div>
+<div class="bread col-1" style="padding-left: 5px;" onclick="openNav()"><i class="fas fa-bars"></i></div>
+
+</div>
+</div>
 
   <div class="container" id="main-nav">
     <div class="row">
@@ -54,11 +110,10 @@
         </button>
         <div class="logBack">
           <h5 >   <a href="" style="color: #F3703C">SIGN UP</a> </h5>
-          <h5 style="color: #F3703C">   <a href=""style="color: #F3703C"> SIGN IN</a> </h5>
-          <h5>SELL ON MAYAS</h5>
-          <h5>CUSTOMER CARE</h5>
-          <h5>TRACK MY ORDER</h5>
-
+          <h5 style="color: #F3703C" id="signIn">  SIGN IN </h5>
+          <h5>  <a href="">SELL ON MAYAS</a> </h5>
+          <h5>  <a href="">CUSTOMER CARE</a> </h5>
+          <h5> <a href="">TRACK MY ORDER</a> </h5>
         </div>
         <button class="btn  orbgcol btn-mayas" type="button">
           <span class="fas fa-shopping-cart"></span> <span class="round">25</span> Cart
@@ -748,64 +803,64 @@
   <!-- The slideshow -->
   <div class="container carousel-inner no-padding">
     <div class="carousel-item active">
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/1.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/2.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/3.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/4.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/5.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/6.png">
       </div>
 
     </div>
     <div class="carousel-item">
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/1.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/2.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/3.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/4.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/5.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/6.png">
       </div>
 
     </div>
     <div class="carousel-item">
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/1.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/2.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/3.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/4.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/5.png">
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-2">
+      <div class="col-4 col-xs-2 col-sm-2 col-md-2">
         <img src="assets/images/products/6.png">
       </div>
 

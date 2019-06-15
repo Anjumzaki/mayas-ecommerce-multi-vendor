@@ -16,5 +16,27 @@ $(document).ready(function () {
      $('.overlay').css("display", "block");
      $('.logBack').css("display", "block");
 });
+  $('.overlay').click(function() {
+     $('.overlay').css("display", "none");
+     $('.logBack').css("display", "none");
+     $('.logInBack').css("display", "none");
+
+});
+   $('#signIn').click(function() {
+     $('.overlay').css("display", "block");
+     $('.logBack').css("display", "none");
+     $('.logInBack').css("display", "block");
+
+});
+
 });
   // Get the element with id="defaultOpen" and click on it
+  // SideNav Button Initialization
+  function openNav() {
+  broWidth =  $( document ).width()
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
