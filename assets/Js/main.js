@@ -29,7 +29,32 @@ $(document).ready(function () {
      $('.logInBack').css("display", "block");
 
 });
+   var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
 
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("activedropCateg");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+var searchCounter = 1
+
+$('#search-trigger').click(function(){
+  if (searchCounter) {
+   $('#input-appender').html('<input id="searching-trigger" type="text" class=" simplebox orbord form-control orcol" placeholder="Search">');
+   searchCounter = 0
+}
+else{
+  $('#input-appender').html('<div class="brandLogo col-md-5 col-8"><img src="assets/images/mayaslogo.svg"></div>');
+   searchCounter = 1
+}
+})
 });
   // Get the element with id="defaultOpen" and click on it
   // SideNav Button Initialization
@@ -52,3 +77,4 @@ function closeNav() {
      $('.overlay').css("display", "none");
   
 }
+

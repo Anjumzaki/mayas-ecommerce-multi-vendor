@@ -70,7 +70,7 @@ body {
   color: white;
   box-shadow: none !important;
   min-width: 105px;
-  width: 40%;
+
 }
 
 .btn-mayas1 {
@@ -749,7 +749,7 @@ a{
   transition: 0.5s;
   padding-top: 110px;
 }
-.sidenav a:nth-child(odd) {
+.sidenav a:nth-child(even) {
   background: #F2F2F2;
 }
 
@@ -762,9 +762,7 @@ a{
   transition: 0.3s;
   text-align: right;}
 
-  .sidenav a:hover {
-    opacity: 0.5;
-  }
+
   .closebtn {
 
     font-size: 30px; 
@@ -783,52 +781,6 @@ a{
     border: 1px solid #F3703C;
     background-color: white !important;
   }
-  @media (min-width: 1081px) {
-   #mainSLider {
-    overflow: hidden;
-    height: 60vh;
-    min-height: 350px;
-  }
-  #mobile-nav{
-    display: none;
-  }
-  footer{
-     height: 700px; /* You must set a specified height */
-  }
-  .weDeal h4{
-    font-size: 2rem;
-  }
-
-#mainCarousel0 .carousel-caption {
-  font-family: 'Montserrat', sans-serif !important;
-  text-align: left;
-  color: black;
-  line-height: 1rem;
-  margin-bottom: 100px;
-  margin-left: 200px;
-}
-
-#mainCarousel0 .carousel-caption p {
-  font-size: 1.5rem;
-}
-
-#mainCarousel0 .carousel-caption .disc {
-  font-size: 2.5rem;
-  line-height: 2rem
-}
-
-#mainCarousel0 .carousel-caption h3 {
-  font-size: 4rem;
-  line-height: 5rem
-}
-
-#mainCarousel0 .carousel-item {
-  min-width: 400px !important;
-}
-.discBtn{
-  font-size: 1.2rem;}
-
-}
 
 #mainCarousel0 .carousel-caption {
   font-family: 'Montserrat', sans-serif !important;
@@ -837,100 +789,19 @@ a{
   line-height: 1rem;
  
 }
-@media (max-width: 1080px) {
-  .catogries {
-    display: none !important;
-  }
-  .sidenav{
-    z-index: 100
-    }#main-nav{
-      display: none;
-    }
-    .bread{
-      font-size:30px;
-      cursor:pointer;
-      color: #F3703C
-    }
-    .innerNav{
-      margin: 0px !important;
-
-    }
-    .innerNav div{
-      display: table;
-      margin: auto 0;
-    }
-    #mobile-nav{
-      border: 1px solid #F3703C;
-    }
-    .topBaner{
-      margin-bottom: 0px !important;
-    }
-
-    .brandLogo img{
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-    .innerNav>div.col-8{
-      border-right: 1px solid #F3703C
-    } 
-    .divider{
-      height: 60px;
-      z-index: 1;
-      width: 0%;
-      border-left:  1px solid #F3703C
-    }
-
-    .divider::after{
-      content: ''
-
-    }
-    .searchBtn{
-      position: absolute;
-      top: 0;
-      margin-top:25px;
-      right: 85px;
-      padding-right: 30px !important;
-      font-size: 30px !important;
-      border: 1px solid #F3703C;
-      border-collapse: collapse;
-      border-right: none;
-      padding-top: 15px !important;
-      padding-bottom: 15px !important;
-    }
-    .searchBtn i{
-      color: #F3703C;
-    }
-    .tabcontent {
-  width: 100%;
+.dropdown-container {
+  display: none;
+ 
 }
-.tab{
-  width: 100%
-}
-.card .wasPrice{
-  font-size: 0.8rem;
+.dropdown-container a{
+   font-size: 15px !important;
+   paddding-right:10px;
 
 }
-.card .price{
-  font-size: 0.8rem;
-}
-.card-body{
-  padding: 0px !important;
-  padding-bottom: 10px !important;
-
+.activedropCateg {
+  background-color: #F3703C; !important;
+  color: white !important;
 }
 
-  }
 
-  @media (max-width: 608px) {
-   .brandLogo img{
-    width: 130%;
-  }
-  footer h4{
-    font-size: 1.2rem !important;
-  }
-   footer h6{
-    font-size: 0.8rem !important;
 
-}
-
-}

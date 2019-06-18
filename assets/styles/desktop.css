@@ -1,0 +1,50 @@
+  @media (min-width: 1081px) {
+   #mainSLider {
+    overflow: hidden;
+    height: 60vh;
+    min-height: 350px;
+  }
+  #mobile-nav{
+    display: none;
+  }
+  footer{
+     height: 700px; /* You must set a specified height */
+  }
+  .weDeal h4{
+    font-size: 2rem;
+  }
+
+#mainCarousel0 .carousel-caption {
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: left;
+  color: black;
+  line-height: 1rem;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+
+#mainCarousel0 .carousel-caption p {
+  font-size: 1.5rem;
+}
+
+#mainCarousel0 .carousel-caption .disc {
+  font-size: 2.5rem;
+  line-height: 2rem
+}
+
+#mainCarousel0 .carousel-caption h3 {
+  font-size: 4rem;
+  line-height: 5rem
+}
+
+#mainCarousel0 .carousel-item {
+  min-width: 400px !important;
+}
+.discBtn{
+  font-size: 1.2rem;
+}
+ .btn-mayas{
+  width: 40%;
+ }
+
+}
