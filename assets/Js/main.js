@@ -20,6 +20,7 @@ $(document).ready(function () {
      $('.overlay').css("display", "none");
      $('.logBack').css("display", "none");
      $('.logInBack').css("display", "none");
+     closeNav()
 
 });
    $('#signIn').click(function() {
@@ -33,10 +34,21 @@ $(document).ready(function () {
   // Get the element with id="defaultOpen" and click on it
   // SideNav Button Initialization
   function openNav() {
-  broWidth =  $( document ).width()
+ var broWidth =  $( document ).width()
+ if(broWidth>700){
+  document.getElementById("mySidenav").style.width = "60%";
+     $('.overlay').css("display", "block");
+
+}
+else{
   document.getElementById("mySidenav").style.width = "100%";
+     $('.overlay').css("display", "block");
+
+}
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+     $('.overlay').css("display", "none");
+  
 }
