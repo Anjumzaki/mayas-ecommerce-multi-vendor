@@ -664,7 +664,7 @@ a{
 .overlay{
   width: 100%;
   height: 100%;
-  background: white;
+  background: black;
   z-index: 13;
   opacity: 0.7;
   position: fixed;
@@ -749,9 +749,7 @@ a{
   transition: 0.5s;
   padding-top: 110px;
 }
-.sidenav a:nth-child(even) {
-  background: #F2F2F2;
-}
+
 
 .sidenav a {
   padding: 8px 32px 8px 32px;
@@ -782,6 +780,7 @@ a{
     background-color: white !important;
   }
 
+
 #mainCarousel0 .carousel-caption {
   font-family: 'Montserrat', sans-serif !important;
   text-align: left;
@@ -802,6 +801,4 @@ a{
   background-color: #F3703C; !important;
   color: white !important;
 }
-
-
 

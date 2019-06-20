@@ -27,6 +27,28 @@ $(document).ready(function () {
      $('.overlay').css("display", "block");
      $('.logBack').css("display", "none");
      $('.logInBack').css("display", "block");
+});
+    $('#signInT').click(function() {
+     $('.overlay').css("display", "block");
+     $('.logBack').css("display", "none");
+     $('.logInBack').css("display", "block");
+});
+   $('#consumerTrigger').click(function() {
+     $('#consumerForm').css("display", "block");
+     $('#vendorForm').css("display", "none");
+     $('#consumerTrigger').css("background", "#F3703C");
+     $('#consumerTrigger').css("color", "white");
+     $('#vendorTrigger').css("background", "white");
+     $('#vendorTrigger').css("color", "#F3703C");
+
+});
+    $('#vendorTrigger').click(function() {
+     $('#vendorForm').css("display", "block");
+     $('#consumerForm').css("display", "none");
+     $('#vendorTrigger').css("background", "#F3703C");
+     $('#vendorTrigger').css("color", "white");
+      $('#consumerTrigger').css("background", "white");
+     $('#consumerTrigger').css("color", "#F3703C");
 
 });
    var dropdown = document.getElementsByClassName("dropdown-btn");
