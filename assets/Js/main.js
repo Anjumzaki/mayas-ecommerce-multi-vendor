@@ -49,8 +49,8 @@ $(document).ready(function () {
      $('#vendorTrigger').css("color", "white");
       $('#consumerTrigger').css("background", "white");
      $('#consumerTrigger').css("color", "#F3703C");
-
 });
+
    var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
 
@@ -100,3 +100,12 @@ function closeNav() {
   
 }
 
+
+   var slider = tns({
+  arrowKeys: true,
+  container: ".js-sliderImageViewer",
+  controls: false,
+  loop: false,
+  mouseDrag: true,
+  navContainer: ".js-imageViewerNav",
+});

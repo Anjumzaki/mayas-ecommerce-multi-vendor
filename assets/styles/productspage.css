@@ -1,0 +1,102 @@
+.card-body{
+	padding:5px
+}
+.cardsforPRo .wasPrice{
+	font-size: 0.8rem;
+}
+.cardsforPRo .price{
+	font-size: 15px;
+}
+.container{
+	background-color: transparent;
+}
+.card.col-md-3{
+	background-color: white;
+}
+.btn-cart{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom:  10px;
+	width: 50%
+
+}
+.cardsforPRo .card{
+	border-radius: 5px !important; 
+	border: 1px solid white;
+}
+.card-btns{
+	visibility: hidden;
+}
+.card:hover{
+	border: 1px solid #F3703C;
+}
+.card:hover .card-btns{
+	visibility: visible;
+}
+.tagsFilter{
+	background-color: #F3703C;
+	color: white;
+	padding:0px 15px 2px 5px;
+	margin-left: 10px;
+	border-radius:  50px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+.exit{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-top: 2px ;
+	display: inline-block;
+}
+.filterBar{
+	background-color: #EFEFEF;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.filterBar span{
+	width:20%;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	border-right: 2px solid #392e3bd9;
+	cursor: pointer;
+
+}
+.paggination{
+	text-align: center;
+	width: 100%;
+}
+.paggination span{
+	padding: 10px;
+	color: white;
+	background-color: #707070a3;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 10px;
+	min-width: 30px;
+}
+.paggination span.active{
+	background-color: #F3703C;
+}
+
+.filterBar span:hover{
+	color: white;
+	background-color: black
+}
+  @media (min-width: 1081px) {
+  	.filterBar span:last-child {
+	border: none !important;
+}
+  }
+@media (max-width: 1080px) {
+	.filterBar span{
+		width: 50%;
+	}
+	#pricefordesk{
+		display: none;
+	}
+}
