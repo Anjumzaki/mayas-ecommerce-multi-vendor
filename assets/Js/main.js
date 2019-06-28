@@ -50,6 +50,7 @@ $(document).ready(function () {
       $('#consumerTrigger').css("background", "white");
      $('#consumerTrigger').css("color", "#F3703C");
 });
+    
 
    var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
@@ -99,13 +100,10 @@ function closeNav() {
      $('.overlay').css("display", "none");
   
 }
-
-
-   var slider = tns({
-  arrowKeys: true,
-  container: ".js-sliderImageViewer",
-  controls: false,
-  loop: false,
-  mouseDrag: true,
-  navContainer: ".js-imageViewerNav",
-});
+/* wait for images to load */
+function add(num){
+ var num1 = $('#quantityforPRo').text() ;
+ num1 = parseInt(num1);
+ num1 +=num;
+ $('#quantityforPRo').html(num1);
+}

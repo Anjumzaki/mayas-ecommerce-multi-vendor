@@ -617,19 +617,18 @@ body {
 }
 footer{
  background-image: url("../images/ecom/path 541.png"); /* The image used */
- 
  background-position: center; /* Center the image */
  background-repeat: no-repeat; /* Do not repeat the image */
  background-size: cover; /* Resize the background image to cover the entire container */
- padding-top: 300px;
 }
 .social-icon i{
   font-size: 1.4rem;
 }
 footer .container{
-
+  padding-top: 300px;
   background:  none;
-  color: white
+  color: white;
+  padding-bottom:100px;
 }
 .nestedDrop div.categChild div.dropp11 a{
   width: 100% !important;

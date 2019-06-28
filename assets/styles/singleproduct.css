@@ -1,0 +1,195 @@
+.sp-wrap{
+	background: none;
+	border: none;
+	max-width: 1000px;
+	width: 100%;
+}
+.productImages{
+	text-align: center;
+}
+.productDetail{
+	margin-top: 40px;
+}
+.productsName h4{
+	font-weight: bold;
+	width: 90%;
+}
+.proRating span.checked{
+	color: #F3703C
+}
+.proRating span{
+	color: #cac9c9;
+	font-size: 30px;
+}
+.comments{
+	float: right;
+	font-size: 12px ;
+	font-weight: bold;
+}
+.proDelivery{
+	font-size: 12px ;
+	font-weight: bold;
+}
+.discBtn{
+	color: white !important;
+}
+.btn-mayas1{
+	color: white !important;
+	font-weight: bold !important;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.text-muted{
+	color: white !important;
+	font-size: 10px !important;
+	display: block;;
+}
+.proFrDisc{
+	margin-top: 10px;
+	margin-left: -15px;
+}
+
+.proFrDisc1{
+	margin-left: -15px;
+	
+}
+.proFrDisc1 h1,.proFrDisc1 h3{
+	color: #F3703C;
+	font-weight: bold !important;
+}
+.sp-lightbox img{
+	width: auto !important;
+}
+.cartPlus .btn{
+	background-color: #F3703C;
+	font-weight: bold;
+	color: white;
+	width: 40px;
+	font-size: 20px;
+}
+.quantity{
+	border: 2px solid #F3703C;
+	overflow: hidden;
+    display: inline-block;
+    border-radius: 8px;
+}
+#quantityforPRo{
+	width: 50px;
+	display: inline-block;
+	text-align: center;
+	color: #F3703C;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btnCart{
+	width: auto !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+label {
+  display:block;
+  border:solid 1px #F3703C;
+  border-radius:10px;
+  margin-top:10px;
+  min-width: 50px;
+  color:#F3703C;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[type=checkbox] {
+  display: none;
+  padding: 10px;
+}
+
+input:checked + label {
+  border: solid 1px red;
+}
+
+input:checked + label:before {
+font-family: "Font Awesome 5 Free";
+ font-weight: 900;
+content: "\f058";
+position: absolute;
+top: -8px;
+right: 0px;
+font-weight: bold;
+color: #F3703C;
+font-size: 30px;
+}
+
+
+/* new stuff */
+.check {
+  visibility: hidden;
+}
+
+input:checked + label .check {
+  visibility: visible;
+}
+
+input.checkbox:checked + label:before {
+content: "";
+}
+/*asdasd*/
+.card-body{
+	padding:5px
+}
+.cardsforPRo .wasPrice{
+	font-size: 1rem;
+}
+.cardsforPRo .price{
+	font-size: 20px;
+}
+.btn-cart{
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom:  10px;
+	width: 50%
+
+}
+.cardsforPRo .card{
+	border-radius: 5px !important; 
+	border: 1px solid white;
+}
+.card-btns{
+	visibility: hidden;
+}
+.card:hover{
+	border: 1px solid #F3703C;
+}
+.card:hover .card-btns{
+	visibility: visible;
+}
+.filterBar{
+	text-align: center;
+	background-color: #F2F2F2;
+}
+.filterBar span{
+	width:20%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	border-right: 2px solid white;
+	cursor: pointer;
+	color: #F3703C;
+}
+.filterBar span.active{
+	background-color: white;
+}
+.productdetails{
+	color:  #F3703C !important;
+}
+
+@media (max-width: 1080px) {
+	.filterBar span{
+		width: 50%;
+	}
+	#forProducts img{
+		height: 100%;
+	}
+}

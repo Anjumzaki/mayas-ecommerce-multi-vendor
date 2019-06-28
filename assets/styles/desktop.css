@@ -7,9 +7,6 @@
   #mobile-nav{
     display: none;
   }
-  footer{
-     height: 700px; /* You must set a specified height */
-  }
   .weDeal h4{
     font-size: 2rem;
   }
